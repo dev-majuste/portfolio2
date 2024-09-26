@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo Majuste</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/icons/logo sla.png" type="image/x-icon">
+    <script crossorigin="anonymous" src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" defer></script>
+    <script src="animate.js" defer></script>
+    <script src="slides.js" defer></script>
+    <script src="scroll.js" defer></script>
+    <script src="copy.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/icons/logo sla.png" alt="Logo" style="width: 32px; height: 32px;">
+            <h2>Portfólio</h2>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="#home">
+                        <p>
+                            INICIO
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#sobre">
+                        <p>
+                            SOBRE
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#projetos">
+                        <p>
+                            PROJETOS
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#habilidades">
+                        <p>
+                            HABILIDADES
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contato">
+                        <p>
+                            CONTATO
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <article>
+        <div id="estrelas1"></div>
+        <div id="estrelas2"></div>
+        <div id="oEstrelas1"></div>
+        <div id="oEstrelas2"></div>
+        <div id="estrelas3"></div>
+        <div id="estrelas4"></div>
+        <div id="oEstrelas3"></div>
+        <div id="oEstrelas4"></div>
+        <div id="estrelas5"></div>
+        <div id="estrelas6"></div>
+        <div id="oEstrelas5"></div>
+        <div id="oEstrelas6"></div>
+        <section id="home">
+            <div class="container-img">
+                <div class="img"></div>
+            </div>
+            <div class="container-txt">
+                <div class="txt">
+                    <h2>Olá, eu sou</h2>
+                    <h1>Ricardo Majuste</h1>
+                    <div class="aTxt" style="width: fit-content; height: fit-content; margin-left: 25px;">
+                        <h2>E estou aprendendo <span class="anim"></span></h2>
+                    </div>
+                </div>
+                <div class="descricao">
+                    <h2>
+                        Sou apaixonado por programação e sempre em busca de aprendizado. Como disse Steve Jobs, <span class="ref">"A única maneira de fazer um excelente trabalho é amar o que você faz"</span>. Estou animado para enfrentar novos desafios e crescer nessa área.
+                    </h2>
+                </div>
+                <div class="botoes">
+                    <a href="https://github.com/dev-majuste" class="a1" target="_blank">
+                        <img src="assets/icons/github-icon.png" alt="Github">
+                    </a>
+                    <a href="https://www.instagram.com/majuste_/" class="a2" target="_blank">
+                        <img src="assets/icons/instagram-icon.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.linkedin.com/in/ricardo-majuste-12a848303/" class="a2" target="_blank">
+                        <img src="assets/icons/linkedin-icon.png" alt="Linkedin">
+                    </a>
+                    <a href="https://www.codewars.com/users/Ricardo%20Majuste" class="a1" target="_blank">
+                        <img src="assets/icons/codewars-icon.png" alt="Codewars" style="border-radius: 100%;">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="sobre">
+            <div class="wrapper">
+                <h1>
+                    Sobre mim
+                </h1>
+                    <div class="img"></div>
+                    <p>
+                        Olá! Meu nome é Ricardo Alves Majuste, tenho 18 anos, sou de Ipatinga, MG e estou no 3º ano do ensino médio. Desde pequeno, sempre fui curioso e fascinado por tecnologia e programação, especialmente na área de Full Stack.
+                        Sou apaixonado por filmes e jogos, que me inspiram a criar e desenvolver novas ideias. Também gosto de desenhar, que é uma forma de expressar minha criatividade. Além das habilidades técnicas, me destaco pela minha criatividade, que busco aplicar em todos os meus projetos.
+                        Atualmente, minhas linguagens de programação favoritas são Java, JavaScript, C, C++ e Python. Estou sempre em busca de novos desafios e oportunidades para aprender cada vez mais, e estou animado para ver o que o futuro me reserva!
+                    </p>
+            </div>
+        </section>
+        <section id="projetos">
+            <h1>
+                Meus Projetos
+            </h1>
+            <div class="container">
+
+                <input type="button" onclick="prev()" value="<" class="bt">
+                <div class="projetos">
+                    <input type="radio" name="radio-btn" id="proj1">
+                    <input type="radio" name="radio-btn" id="proj2">
+                    <input type="radio" name="radio-btn" id="proj3">
+                    <input type="radio" name="radio-btn" id="proj4">
+                    <input type="radio" name="radio-btn" id="proj5">
+                    <input type="radio" name="radio-btn" id="proj6">
+                    <input type="radio" name="radio-btn" id="proj7">
+                    <div class="item front 1">
+                        <img src="assets/projetos/imobiliaria.png" alt="">
+                        <h3>Imobiliaria Santos</h3>
+                        <a href="https://dev-majuste.github.io/Imobiliaria/" target="_blank">Quero conhecer!</a>
+                    </div>
+                    <div class="item 2">
+                        <img src="assets/projetos/Doutor Estranho.png" alt="Doutor Estranho">
+                        <h3>Doutor Estranho</h3>
+                        <a href="https://dev-majuste.github.io/Doutor-Estranho/" target="_blank">Quero conhecer!</a>
+                    </div>
+                    <div class="item 3">
+                        <img src="assets/projetos/SuperMan & Lois.png" alt="Superman e Lois">
+                        <h3>Superman&Lois</h3>
+                        <a href="https://dev-majuste.github.io/Superman/" target="_blank">Quero conhecer!</a>
+                    </div>
+                    <div class="item 4">
+                        <img src="assets/projetos/Calculadora.png" alt="Calculadora">
+                        <h3>Calculadora Simples</h3>
+                        <a href="https://dev-majuste.github.io/Calculadora/" target="_blank">Quero conhecer!</a>
+                    </div>
+                    <div class="item 5">
+                        <img src="assets/projetos/Paisagem da Espanha.png" alt="Paisagem da Espanha">
+                        <h3>Paisagem da Espanha</h3>
+                        <a href="https://dev-majuste.github.io/literatura/" target="_blank">Quero conhecer!</a>
+                    </div>
+                    <div class="item 6">
+                        <img src="assets/projetos/Carta Romantica.png" alt="Carta Romantica">
+                        <h3>Carta Romantica</h3>
+                        <a href="https://dev-majuste.github.io/Carta-Amada/" target="_blank">Quero conhecer!</a>
+                    </div>
+                    <div class="item 7">
+                        <img src="assets/projetos/AlfaTech.png" alt="AlfaTech Hospedagens">
+                        <h3>AlfaTech Hospedagens</h3>
+                        <a href="https://dev-majuste.github.io/P100/" target="_blank">Quero conhecer!</a>
+                    </div> 
+                </div>
+                <input type="button" onclick="next()" value=">" class="bt">
+            </div>
+        </section>
+        <section id="habilidades">
+            <div class="wrapper">
+                <h1>
+                    Minhas Habilidades
+                </h1>
+                <div class="container">
+                    <div class="linguagens">
+                        <div class="hexagon" style="margin-left: 43px;">
+                            <img src="assets/icons/cr-icon-2.png" alt="Criatividade icon" style="width: 40px; height: 40px; margin-left: 30px;">
+                            <p style="margin-left: -25px;">Criatividade</p>
+                        </div>
+                        <div class="hexagon">
+                            <img src="assets/icons/design-icon.png" alt="Design icon" style="width: 40px; height: 40px; margin-left: 20px">
+                            <p>Design</p>
+                        </div>
+                        <div class="hexagon" style="margin-right: 43px;"">
+                            <img src="assets/icons/cr-icon-1.png " alt="Criatividade icon" style="margin-left: 25px;">
+                            <p style="margin-left: -25px;">Dedicação</p>
+                        </div>
+                        <div class="hexagon">
+                            <img src="assets/icons/javaicon.png" alt="Java icon">
+                            <p>Java</p>
+                        </div>
+                        <div class="hexagon">
+                            <img src="assets/icons/python-icon.png" alt="Python icon">
+                            <p>Python</p>
+                        </div>
+                        <div class="hexagon">
+                            <img src="assets/icons/c++-icon.png" alt="C++ icon">
+                            <p>C++</p>
+                        </div>
+                        <div class="hexagon">
+                            <img src="assets/icons/c-icon.png" alt="C icon" style="margin-right: 15px;">
+                            <p style="margin-right: 15px;">C</p>
+                        </div>
+                        <div class="hexagon">
+                            <img src="assets/icons/html-icon.png" alt="HTML icon" style="width: 48px; height: 48px;">
+                            <p>Html</p>
+                        </div>
+                        <div class="hexagon">
+                            <img src="assets/icons/css-icon.png" alt="Css icon">
+                            <p>Css</p>
+                        </div> 
+                        <div class="hexagon">
+                            <img src="assets/icons/js-icon.png" alt="JavaScript icon" style="width: 32x; height: 36px; margin-left: 30px;">
+                            <p style="margin-left: -15px;">JavaScript</p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <h1>
+                Entre em contato
+            </h1>
+            <div class="container">
+                <div class="contatos">
+                    <div class="contato 1">
+                        <h3>Email</h3>
+                        <p class="copiarTxt">ricardoalvesmajuste@gmail.com</p>
+                    </div>
+                    <div class="contato 2">
+                        <h3>Telefone</h3>
+                        <p class="copiarTxt">(31) 97194-9703</p>
+                    </div>
+                    <div class="contato 3">
+                        <h3>Linkedin</h3>
+                        <a href="https://www.linkedin.com/in/ricardo-majuste-12a848303/" target="_blank">Ricardo Majuste</a>
+                    </div>
+                </div>
+                <div class="formulario">
+                    <form action="https://formspree.io/f/xqazvwrr" method="POST">
+                    <label>
+                        <h3>Seu email:</h4> <br>
+                        <input type="email" name="email" required>
+                    </label>
+                    <label>
+                        <h3>Sua mensagem:</h3>
+                        <div class="fundo">
+                            <textarea name="message" required></textarea>
+                        </div>
+                    </label>
+                    <button type="submit"><h3>Enviar</h3></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </article>
+    <footer>
+        <h3>Desenvolvido por <span>@Majuste</span></h3>
+    </footer>
+</body>
+</html>
